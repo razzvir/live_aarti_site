@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px ;
+    
+} 
+.main1{
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #FF6D60;
+}
+.content2{
+    text-align: center;
+    word-spacing: normal;
+    margin-top: 3%;
+    font-size: 120%;
+    color: #F7D060;
+}
+.content1{
+    margin-top: 7%;
+    /* margin-bottom: 7%; */
+    margin-left: 26%;
+}
