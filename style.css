@@ -13,19 +13,30 @@
 .main1{
     background-position: center;
     background-size: cover;
+    background-color: #4010fe;
     text-align: center;
-    color: #FF6D60;
+    color: white;
+    border: 2px solid rgb(241, 167, 7);
+    border-radius: 100000px;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+  }
+  
+.videoo{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 .content2{
     text-align: center;
     word-spacing: normal;
-    margin-top: 3%;
+    margin-top: 5px;
     font-size: 120%;
-    color: #F7D060;
-}
-.content1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    color: #fec210;
 }
