@@ -1,27 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style1.css">
-    <title>Live Aarti</title>
-  </head>
 
-  <body>
-    <img class="bg" src="akshar.jpg"image">
-    <div class="main">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style1.css">
+  <title>Live Aarti</title>
+</head>
+
+<body>
+  <img class="bg" src="akshar.jpg" image>
+  <div class="main">
     <div class="main1">
-        <h1>Live Aarti Darshan</h1></div>
-        <div class="content2">
-            <p><b>Experience the divine at your fingertips with our Live Aarti Streaming website. Join us as we bring you real-time Aarti ceremonies from renowned temples, fostering a sense of togetherness and devotion. Immerse yourself in the sacred rituals, engage with a vibrant community, and make secure donations.</b></p>
-        </div>
-     <div class="videoo">   
-    <div class="sk-ww-youtube-live-videos" data-embed-id='153168'>
-      <script src='https://widgets.sociablekit.com/youtube-live-videos/widget.js' async defer></script>
+      <h1>Live Aarti Darshan</h1>
     </div>
-  </div>
-    
-   
-    
-    </body>
+    <div class="content2">
+      <p><b>Experience the divine at your fingertips with our Live Aarti Streaming website. Join us as we bring you
+          real-time Aarti ceremonies from renowned temples, fostering a sense of togetherness and devotion. Immerse
+          yourself in the sacred rituals, engage with a vibrant community, and make secure donations.</b></p>
+    </div>
+
+    <div class="date">
+      <p>Date/Time: <span id="datetime"></span></p>
+      <script>
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML = (("0" + dt.getDate()).slice(-2)) + "." + (("0" + (dt.getMonth() + 1)).slice(-2)) + "." + (dt.getFullYear()) + " " + (("0" + dt.getHours()).slice(-2)) + ":" + (("0" + dt.getMinutes()).slice(-2));
+      </script>
+    </div>
+    <div class="videoo">
+      <div class="sk-ww-youtube-live-videos" data-embed-id='153168'>
+        <script src='https://widgets.sociablekit.com/youtube-live-videos/widget.js' async defer></script>
+
+      </div>
+    </div>
+    <footer>
+      <div class="text-lines">
+        <span class="line">Live Aarti Darshan will start at 7:15pm everyday</span>
+      </div>
+    </footer>
+
+
+</body>
+
 </html>
